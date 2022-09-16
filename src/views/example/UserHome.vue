@@ -2,13 +2,14 @@
     export default {
         data() {
             return {                
-                message: 'HelloWorld'
+                message: 'User Home'
             }
         }
     }
 </script>
 
 <template>
-    <h3>This Page is {{ message }}</h3>
-</template>
 
+    <h3>{{ message }} Page</h3>
+
+</template>
